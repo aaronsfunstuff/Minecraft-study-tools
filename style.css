@@ -712,3 +712,92 @@ footer p {
     font-weight: bold;
     margin-top: 10px;
 }
+
+#grammar-hero {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #E8F5E9;
+    text-align: center;
+}
+
+#grammar-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#grammar-hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#grammar-exercises {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exercise {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exercise h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.exercise p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.exercise form {
+    margin: 10px 0;
+}
+
+.exercise label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.exercise select {
+    font-size: 1em;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.exercise input[type="radio"] {
+    margin-right: 5px;
+}
+
+.exercise button {
+    font-size: 1em;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.exercise button:hover {
+    background-color: #45A049;
+}
+
+.exercise p#fill-blanks-result,
+.exercise p#multiple-choice-result {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
