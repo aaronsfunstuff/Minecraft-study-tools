@@ -286,3 +286,95 @@ footer p {
     background-color: #45A049;
     transform: scale(1.05);
 }
+
+#signup-hero {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #E8F5E9;
+    text-align: center;
+}
+
+#signup-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#signup-hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#signup-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#signup-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup-form label {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+#signup-form input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#signup-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#signup-form button:hover {
+    background-color: #45A049;
+    transform: scale(1.05);
+}
+
+#signup-form p {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+#signup-form a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#signup-form a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #signup-form {
+        padding: 15px;
+    }
+
+    #signup-form input, #signup-form button {
+        font-size: 0.9em;
+    }
+}
