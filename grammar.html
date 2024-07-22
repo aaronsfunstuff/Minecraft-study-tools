@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Exercises - StudyCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="grammar.js"></script>
+</head>
+<body>
+    <header>
+        <h1>StudyCraft</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="grammar-hero">
+            <h2>Grammar Exercises</h2>
+            <p>Improve your grammar skills with our interactive exercises. Choose the correct options to complete the sentences and test your knowledge!</p>
+        </section>
+        <section id="grammar-exercises">
+            <div class="exercise">
+                <h3>Fill in the Blanks</h3>
+                <p>Complete the sentences with the correct words from the list below.</p>
+                <form id="fill-blanks-form">
+                    <p>1. She _____ (is/are) going to the store.</p>
+                    <select id="blank1">
+                        <option value="is">is</option>
+                        <option value="are">are</option>
+                    </select>
+
+                    <p>2. They _____ (was/were) playing soccer yesterday.</p>
+                    <select id="blank2">
+                        <option value="was">was</option>
+                        <option value="were">were</option>
+                    </select>
+
+                    <p>3. I _____ (don't/doesn't) like broccoli.</p>
+                    <select id="blank3">
+                        <option value="don't">don't</option>
+                        <option value="doesn't">doesn't</option>
+                    </select>
+
+                    <button type="button" class="cta-button" onclick="checkFillBlanks()">Check Answers</button>
+                </form>
+                <p id="fill-blanks-result"></p>
+            </div>
+            <div class="exercise">
+                <h3>Multiple Choice Questions</h3>
+                <p>Select the correct option for each question.</p>
+                <form id="multiple-choice-form">
+                    <p>1. What is the correct form of the verb in this sentence? "She _____ to the library every week."</p>
+                    <div>
+                        <input type="radio" id="mc1a" name="mc1" value="go">
+                        <label for="mc1a">go</label><br>
+                        <input type="radio" id="mc1b" name="mc1" value="goes">
+                        <label for="mc1b">goes</label><br>
+                        <input type="radio" id="mc1c" name="mc1" value="going">
+                        <label for="mc1c">going</label>
+                    </div>
+
+                    <p>2. Choose the correct sentence:</p>
+                    <div>
+                        <input type="radio" id="mc2a" name="mc2" value="I not like pizza.">
+                        <label for="mc2a">I not like pizza.</label><br>
+                        <input type="radio" id="mc2b" name="mc2" value="I do not like pizza.">
+                        <label for="mc2b">I do not like pizza.</label><br>
+                        <input type="radio" id="mc2c" name="mc2" value="I not likes pizza.">
+                        <label for="mc2c">I not likes pizza.</label>
+                    </div>
+
+                    <button type="button" class="cta-button" onclick="checkMultipleChoice()">Check Answers</button>
+                </form>
+                <p id="multiple-choice-result"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 StudyCraft. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
