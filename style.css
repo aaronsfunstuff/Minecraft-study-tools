@@ -605,3 +605,110 @@ footer p {
     font-weight: bold;
     margin-top: 10px;
 }
+#vocab-hero {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: #E8F5E9;
+    text-align: center;
+}
+
+#vocab-hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#vocab-hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#vocab-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vocab-exercise {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vocab-exercise h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.vocab-exercise p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.vocab-match {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vocab-match div {
+    width: 45%;
+}
+
+.vocab-match h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.vocab-match ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vocab-match li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.vocab-exercise form {
+    margin: 10px 0;
+}
+
+.vocab-exercise label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.vocab-exercise select {
+    font-size: 1em;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.vocab-exercise button {
+    font-size: 1em;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vocab-exercise button:hover {
+    background-color: #45A049;
+}
+
+.vocab-exercise p#vocab-result {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
