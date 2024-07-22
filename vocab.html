@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Builder - StudyCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="vocab.js"></script>
+</head>
+<body>
+    <header>
+        <h1>StudyCraft</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="vocab-hero">
+            <h2>Vocabulary Builder</h2>
+            <p>Expand your vocabulary with our interactive word games and exercises. Test your knowledge and learn new words!</p>
+        </section>
+        <section id="vocab-container">
+            <div class="vocab-exercise">
+                <h3>Match the Words</h3>
+                <p>Match each word with its correct meaning.</p>
+                <div class="vocab-match">
+                    <div>
+                        <h4>Words:</h4>
+                        <ul id="words-list">
+                            <li>1. Eloquent</li>
+                            <li>2. Meticulous</li>
+                            <li>3. Pragmatic</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Meanings:</h4>
+                        <ul id="meanings-list">
+                            <li>A. Detail-oriented</li>
+                            <li>B. Practical</li>
+                            <li>C. Fluent in speech</li>
+                        </ul>
+                    </div>
+                </div>
+                <form id="vocab-match-form">
+                    <label for="match1">1. Eloquent:</label>
+                    <select id="match1">
+                        <option value="A">A. Detail-oriented</option>
+                        <option value="B">B. Practical</option>
+                        <option value="C">C. Fluent in speech</option>
+                    </select>
+                    <label for="match2">2. Meticulous:</label>
+                    <select id="match2">
+                        <option value="A">A. Detail-oriented</option>
+                        <option value="B">B. Practical</option>
+                        <option value="C">C. Fluent in speech</option>
+                    </select>
+                    <label for="match3">3. Pragmatic:</label>
+                    <select id="match3">
+                        <option value="A">A. Detail-oriented</option>
+                        <option value="B">B. Practical</option>
+                        <option value="C">C. Fluent in speech</option>
+                    </select>
+                    <button type="button" class="cta-button" onclick="checkVocabMatch()">Check Answers</button>
+                </form>
+                <p id="vocab-result"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 StudyCraft. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
